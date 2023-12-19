@@ -5,6 +5,4 @@ Projeto intuitivo para informações de eventos.
 
 Responsivo
 
-![image](https://github.com/Gabronx/MOSHROOMSESH/assets/102370008/f0b4f626-4039-463e-bdbb-03e2ecd45ec6)
-
-![image](https://github.com/Gabronx/MOSHROOMSESH/assets/102370008/0b3844a2-0473-4e09-9314-5d29ae9cf440)
+![image](https://github.com/Gabronx/MOSHROOMSESH/assets/102370008/f0b4f626-4039-463e-bdbb-03e2ecd45ec6)![image](https://github.com/Gabronx/MOSHROOMSESH/assets/102370008/0b3844a2-0473-4e09-9314-5d29ae9cf440)
