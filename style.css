@@ -1,17 +1,21 @@
 /* Estilos Gerais */
 
 * {
-  color: #35383e;
+  color: #ffffff;
+}
+
+body {
+  background-color: #000000 !important;
 }
 
 a,
 i {
-  transition: 0.5s;
+  transition: 0.3s ease-out;
   text-decoration: none;
 }
 
 .secondary-color {
-  color: #555;
+  color: #ffffff;
 }
 
 .center-image {
@@ -62,29 +66,30 @@ body .btn {
 
 #navbar a {
   width: 80px;
-  color: #c1b696;
+  color: #ffffff;
   text-decoration: none;
 }
 
 #navbar a:hover {
-  color: #c1b696;
+  color: #8e8e8e;
 }
 
 /* MAIN IMAGE */
 
 .main-image {
   height: 400px;
-  background-image: url(img/LookBook-CafeDecoGabo-BlackAndWhite.jpg);
+  background-image: url(img2/me7.jpg);
   margin-bottom: 30px;
   position: relative;
 }
 
 .main-image-info {
-  background-color: #fff;
+  background-color: #000000;
   padding: 25px;
   position: absolute;
   left: 25px;
   bottom: 25px;
+  border: 1px solid #fff;
 }
 
 /* GALLERY */
