@@ -42,7 +42,7 @@ body {
 #logo {
   width: 50px;
   height: 50px;
-  margin-right: 5px;
+  /* margin-right: 5px; */
 }
 
 #navbar {
@@ -55,6 +55,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   transition: none;
+  text-align: center;
 }
 
 #navbar a:hover {
