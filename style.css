@@ -193,6 +193,15 @@ footer i {
   transition: none;
 }
 
+footer .col-1 {
+  width: 15%;
+}
+
+#social-icons-container i {
+  align-items: center !important;
+  text-align: center !important;
+}
+
 #social-icons-container {
   padding: 25px;
 }
