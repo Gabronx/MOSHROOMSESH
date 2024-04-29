@@ -95,6 +95,11 @@ body.dark-mode a:hover {
   background-color: #ffffff !important;
   color: #6b6b6b !important;
 }
+body.dark-mode #navbar a:hover {
+  background-color: #ffffff !important;
+  color: #7c7c7c !important;
+  border: none;
+}
 
 body.dark-mode h1 {
   background-color: #ffffff !important;
@@ -121,25 +126,50 @@ body.dark-mode a:hover {
 }
 
 body.dark-mode .main-image-info {
-  background-color: #fff;
-  border: 1px solid #000000;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(0, 0, 0, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
+  border: none;
   color: #000;
+  /* border-radius: 10px; */
 }
 
 body.dark-mode .main-image-info .btn {
-  background-color: #ffffff !important;
-  border: 1px solid #000000;
+  background-color: #ffffff2f !important;
+  border: none;
   color: #000000 !important;
+  box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
 }
 
 body.dark-mode .main-image-info .btn:hover {
-  border: 1px solid #6b6b6b;
-  color: #6b6b6b !important;
+  border: none;
+  color: #202020 !important;
 }
 
 #darkModeToggle {
   width: 50px;
   height: 50px;
+}
+
+body.dark-mode #contact a {
+  /* background-color: #ffffff !important; */
+  color: #7c7c7c !important;
+  border: none;
+}
+body.dark-mode #contact i {
+  /* background-color: #ffffff !important; */
+  color: #7c7c7c !important;
+  border: none;
+}
+body.dark-mode #contact i:hover {
+  /* background-color: #ffffff !important; */
+  color: #4c4c4c !important;
+  border: none;
 }
 
 /* NAVBAR */
@@ -179,7 +209,7 @@ body.dark-mode .main-image-info .btn:hover {
 }
 
 .main-image-info {
-  background-color: #000000;
+  background-color: #000;
   padding: 25px;
   position: absolute;
   left: 25px;
