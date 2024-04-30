@@ -140,10 +140,10 @@ body.dark-mode .main-image-info {
 }
 
 body.dark-mode .main-image-info .btn {
-  background-color: #ffffff2f !important;
+  background-color: #ffffff00 !important;
   border: none;
   color: #000000 !important;
-  box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.476);
 }
 
 body.dark-mode .main-image-info .btn:hover {
@@ -200,7 +200,7 @@ body.dark-mode #contact i:hover {
 
 .main-image {
   height: 70vh;
-  background-image: url(img2/me7.jpg);
+  background-image: url(img2/Sem\ título-distorcido-1.png);
   background-position: center center;
   background-size: cover;
   margin-bottom: 30px;
@@ -315,4 +315,11 @@ footer p {
 a:hover i {
   color: #606060e4;
   transition: none;
+}
+
+@media screen and (max-width: 768px) {
+  .main-image {
+    background-image: url(img/MoshSUMMER-1.png);
+    background-size: 150vh;
+  }
 }
