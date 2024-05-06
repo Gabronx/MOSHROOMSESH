@@ -45,14 +45,14 @@ p {
 
 body .btn {
   text-decoration: none;
-  background-color: #161616;
+  background-color: #2b2b2b;
   color: #fff;
   padding: 7px 18px;
   border-radius: 0;
 }
 
 body .btn:hover {
-  background-color: #101010;
+  background-color: #ffffff31;
   color: #fff;
 }
 
@@ -200,6 +200,7 @@ body.dark-mode #contact i:hover {
 
 .main-image {
   height: 70vh;
+   /* background-image: url(img2/Sem\ título-distorcido-1.png); */
   background-image: url(img2/Sem\ título-distorcido-1.png);
   background-position: center center;
   background-size: cover;
@@ -209,7 +210,7 @@ body.dark-mode #contact i:hover {
 }
 
 .main-image-info {
-  background-color: #000;
+  background-color: #000000c4;
   padding: 25px;
   position: absolute;
   left: 25px;
@@ -220,7 +221,7 @@ body.dark-mode #contact i:hover {
 /* GALLERY */
 
 #img2 {
-  background-image: url(img/MoshroomDJSET.jpeg);
+  background-image: url(img2/moshcapa1.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -316,6 +317,22 @@ a:hover i {
   color: #606060e4;
   transition: none;
 }
+
+#warningNextEvent{
+  background-color: red;
+   color: white;
+   text-align: center;
+   font-family: "Poppins", sans-serif;
+}
+
+#warningSoonEvent{
+  background-color:rgba(88, 88, 88, 0.527);
+   color: white;
+   text-align: center;
+   font-family: "Poppins", sans-serif;
+}
+
+#btnMoshFirtEventMore {}
 
 @media screen and (max-width: 768px) {
   .main-image {
