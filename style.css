@@ -200,7 +200,7 @@ body.dark-mode #contact i:hover {
 
 .main-image {
   height: 70vh;
-   /* background-image: url(img2/Sem\ título-distorcido-1.png); */
+  /* background-image: url(img2/Sem\ título-distorcido-1.png); */
   background-image: url(img2/Sem\ título-distorcido-1.png);
   background-position: center center;
   background-size: cover;
@@ -210,18 +210,31 @@ body.dark-mode #contact i:hover {
 }
 
 .main-image-info {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(0, 0, 0, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
+  color: #ffffff;
   background-color: #000000c4;
   padding: 25px;
   position: absolute;
   left: 25px;
   bottom: 25px;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
+}
+
+.main-image-info .btn:hover {
+  background-color: #1d1d1d;
 }
 
 /* GALLERY */
 
 #img2 {
-  background-image: url(img2/moshcapa1.png);
+  background-image: url(img/MOSHFEED.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -318,21 +331,22 @@ a:hover i {
   transition: none;
 }
 
-#warningNextEvent{
+#warningNextEvent {
   background-color: red;
-   color: white;
-   text-align: center;
-   font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
-#warningSoonEvent{
-  background-color:rgba(88, 88, 88, 0.527);
-   color: white;
-   text-align: center;
-   font-family: "Poppins", sans-serif;
+#warningSoonEvent {
+  background-color: rgba(88, 88, 88, 0.527);
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
-#btnMoshFirtEventMore {}
+#btnMoshFirtEventMore {
+}
 
 @media screen and (max-width: 768px) {
   .main-image {
