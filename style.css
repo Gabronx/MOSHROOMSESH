@@ -58,6 +58,7 @@ body .btn:hover {
 
 /* HEADER */
 #header {
+  margin: 0;
   text-align: center;
   padding: 20px;
   border-bottom: 1px solid #ccc;
@@ -181,6 +182,7 @@ body.dark-mode #contact i:hover {
 #navbar .row {
   width: 100%;
   display: flex !important;
+  justify-content: space-evenly !important;
 }
 
 #navbar a {
@@ -189,6 +191,7 @@ body.dark-mode #contact i:hover {
   text-decoration: none;
   transition: none;
   text-align: center;
+  margin: 5px;
 }
 
 #navbar a:hover {
@@ -353,4 +356,32 @@ a:hover i {
     background-image: url(img/MoshSUMMER-1.png);
     background-size: 150vh;
   }
+
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff00 !important; /* Cor do thumb */
+    border-radius: 15px;
+  }
+}
+
+/* Customização da Barra de Rolagem */
+::-webkit-scrollbar {
+  width: 6px; /* Largura da barra vertical */
+  height: 12px; /* Altura da barra horizontal */
+}
+
+/* A trilha da barra (background) */
+::-webkit-scrollbar-track {
+  background: #201c1c00; /* Cor da trilha */
+  border-radius: 10px;
+}
+
+/* O controle deslizante (thumb) da barra */
+::-webkit-scrollbar-thumb {
+  background: #acacac; /* Cor do thumb */
+  border-radius: 15px;
+}
+
+/* Estilo ao passar o mouse sobre o thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #929292;
 }
