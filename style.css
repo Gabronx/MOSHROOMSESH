@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Dela+Gothic+One&family=Figtree:wght@300&family=Indie+Flower&family=Inter&family=Josefin+Sans&family=Montserrat:wght@400;500&family=Poppins:wght@300;400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* 
+font-family: "Roboto Condensed", sans-serif;
+font-family: 'Archivo', sans-serif;
+font-family: 'Dela Gothic One', sans-serif;
+font-family: 'Figtree', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+/* Estilos Gerais */
+
+* {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+body {
+  background-color: #000000 !important;
+}
+
+a,
+i,
+p {
+  /* font-family: "poppins", sans-serif; */
+  transition: 0.3s ease-out;
+  text-decoration: none;
+}
+
+.secondary-color {
+  color: #ffffff;
+}
+
+.center-image {
+  background-size: cover;
+  background-position: center;
+}
+
+body .btn {
+  text-decoration: none;
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 7px 18px;
+  border-radius: 0;
+}
+
+body .btn:hover {
+  background-color: #ffffff31;
+  color: #fff;
+}
+
+/* HEADER */
+#header {
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+#header p {
+  margin-bottom: 0;
+}
+
+#logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  /* margin-right: 5px; */
+}
+
+/* DARK MODE */
+
+/* MOSHROOM2-removebg-preview.png */
+
+body.dark-mode {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+body.dark-mode a {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+body.dark-mode a:hover {
+  background-color: #ffffff !important;
+  color: #6b6b6b !important;
+}
+body.dark-mode #navbar a:hover {
+  background-color: #ffffff !important;
+  color: #7c7c7c !important;
+  border: none;
+}
+
+body.dark-mode h1 {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+body.dark-mode h3 {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+body.dark-mode p {
+  /* background-color: #ffffff  */
+  color: #000000 !important;
+}
+
+body.dark-mode .btn {
+  border: 1px solid #000;
+  color: #000000 !important;
+}
+body.dark-mode a:hover {
+  /* border-radius: 10px; */
+  border: 1px solid #6b6b6b;
+}
+
+body.dark-mode .main-image-info {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(0, 0, 0, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
+  border: none;
+  color: #000;
+  /* border-radius: 10px; */
+}
+
+body.dark-mode .main-image-info .btn {
+  background-color: #ffffff00 !important;
+  border: none;
+  color: #000000 !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.476);
+}
+
+body.dark-mode .main-image-info .btn:hover {
+  border: none;
+  color: #202020 !important;
+}
+
+#darkModeToggle {
+  width: 50px;
+  height: 50px;
+}
+
+body.dark-mode #contact a {
+  /* background-color: #ffffff !important; */
+  color: #7c7c7c !important;
+  border: none;
+}
+body.dark-mode #contact i {
+  /* background-color: #ffffff !important; */
+  color: #7c7c7c !important;
+  border: none;
+}
+body.dark-mode #contact i:hover {
+  /* background-color: #ffffff !important; */
+  color: #4c4c4c !important;
+  border: none;
+}
+
+/* NAVBAR */
+#navbar {
+  padding: 10px;
+  margin: 10px auto;
+}
+
+#navbar .row {
+  width: 100%;
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+
+#navbar a {
+  width: 80px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: none;
+  text-align: center;
+  margin: 5px;
+}
+
+#navbar a:hover {
+  color: #606060e4;
+  transition: none;
+}
+
+/* MAIN IMAGE */
+
+.main-image {
+  height: 70vh;
+  /* background-image: url(img2/Sem\ título-distorcido-1.png); */
+  background-image: url(img2/Sem\ título-distorcido-1.png);
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 30px;
+  transition: background-size 0.2s ease-out;
+  position: relative;
+}
+
+.main-image-info {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(0, 0, 0, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
+  color: #ffffff;
+  background-color: #000000c4;
+  padding: 25px;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  /* border: 1px solid #fff; */
+}
+
+.main-image-info .btn:hover {
+  background-color: #1d1d1d;
+}
+
+/* GALLERY */
+
+#img2 {
+  background-image: url(img/MOSHFEED.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#img2:hover {
+  box-shadow: #35383e;
+}
+
+#img3 {
+  background-image: url(img/MoshroomDJSET.jpeg);
+
+  /* background-size: 100%; */
+}
+
+#img4 {
+  background-image: url(img/MoshroomDJSET.jpeg);
+}
+
+#img5 {
+  background-image: url(img/MoshroomDJSET.jpeg);
+}
+
+#gallery-container h1 {
+  text-align: center;
+}
+
+#gallery-container h1,
+#gallery-container,
+#gallery-container,
+.col-md-6,
+.col-12 {
+  margin-bottom: 50px;
+}
+
+.small-image-container {
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Sobreposição escura */
+  transition: background 0.5s ease-in-out;
+}
+
+.zoom-image {
+  position: relative;
+  overflow: hidden;
+}
+
+/* FOOTER */
+footer {
+  border-top: 1px solid #ccc;
+  height: 150px;
+  padding: 10px;
+}
+
+footer i {
+  font-size: 20px;
+  transition: none;
+}
+
+footer .col-1 {
+  width: 15%;
+}
+
+#social-icons-container i {
+  align-items: center !important;
+  text-align: center !important;
+}
+
+#social-icons-container {
+  padding: 25px;
+}
+
+#social-icons-container div {
+  text-align: center;
+}
+
+.secondary-color {
+  margin-bottom: 10px;
+}
+
+footer p {
+  text-align: center;
+}
+
+a:hover i {
+  color: #606060e4;
+  transition: none;
+}
+
+#warningNextEvent {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#warningSoonEvent {
+  background-color: rgba(88, 88, 88, 0.527);
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#btnMoshFirtEventMore {
+}
+
+@media screen and (max-width: 768px) {
+  .main-image {
+    background-image: url(img/MoshSUMMER-1.png);
+    background-size: 150vh;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff00 !important; /* Cor do thumb */
+    border-radius: 15px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff00;
+}
