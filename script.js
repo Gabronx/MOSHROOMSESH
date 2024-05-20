@@ -31,10 +31,17 @@ $(document).ready(function() {
 });
 
 
-document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("DOMContentLoaded", function() {
     const darkModeToggle = document.getElementById("darkModeToggle");
-  
+    const logo = document.getElementById("logo");
+
     darkModeToggle.addEventListener("click", function() {
-      document.body.classList.toggle("dark-mode");
+        document.body.classList.toggle("dark-mode");
+
+        if (document.body.classList.contains("dark-mode")) {
+            logo.src = "img/MOSH_LOGO.png"; // Caminho para a imagem do modo escuro
+        } else {
+            logo.src = "img/MOSHROOM-LOGO.png"; // Caminho para a imagem do modo claro
+        }
     });
-  });
+});
