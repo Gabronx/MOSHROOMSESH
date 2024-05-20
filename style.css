@@ -73,6 +73,10 @@ body .btn:hover {
   justify-content: center;
 }
 
+.logoImg {
+  cursor: pointer;
+}
+
 #logo {
   width: 50px;
   height: 50px;
@@ -92,10 +96,12 @@ body.dark-mode a {
   background-color: #ffffff !important;
   color: #000000 !important;
 }
+
 body.dark-mode a:hover {
   background-color: #ffffff !important;
   color: #6b6b6b !important;
 }
+
 body.dark-mode #navbar a:hover {
   background-color: #ffffff !important;
   color: #7c7c7c !important;
@@ -121,17 +127,16 @@ body.dark-mode .btn {
   border: 1px solid #000;
   color: #000000 !important;
 }
+
 body.dark-mode a:hover {
   /* border-radius: 10px; */
   border: 1px solid #6b6b6b;
 }
 
 body.dark-mode .main-image-info {
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1),
-    rgba(0, 0, 0, 0)
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(0, 0, 0, 0));
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
@@ -162,11 +167,13 @@ body.dark-mode #contact a {
   color: #7c7c7c !important;
   border: none;
 }
+
 body.dark-mode #contact i {
   /* background-color: #ffffff !important; */
   color: #7c7c7c !important;
   border: none;
 }
+
 body.dark-mode #contact i:hover {
   /* background-color: #ffffff !important; */
   color: #4c4c4c !important;
@@ -212,11 +219,9 @@ body.dark-mode #contact i:hover {
 }
 
 .main-image-info {
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1),
-    rgba(0, 0, 0, 0)
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(0, 0, 0, 0));
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
@@ -282,7 +287,8 @@ body.dark-mode #contact i:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Sobreposição escura */
+  background: rgba(0, 0, 0, 0.5);
+  /* Sobreposição escura */
   transition: background 0.5s ease-in-out;
 }
 
@@ -347,17 +353,15 @@ a:hover i {
   font-family: "Poppins", sans-serif;
 }
 
-#btnMoshFirtEventMore {
-}
-
 @media screen and (max-width: 768px) {
   .main-image {
     background-image: url(img2/MOSH-CAPA-MOBILE.png);
-    /* background-size: 150vh; */
+    background-size: 50vh;
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #ffffff00 !important; /* Cor do thumb */
+    background: #ffffff00 !important;
+    /* Cor do thumb */
     border-radius: 15px;
   }
 }
