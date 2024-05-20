@@ -102,10 +102,13 @@ body.dark-mode #navbar a:hover {
   border: none;
 }
 
+<<<<<<< HEAD
 body.dark-mode img#logo {
   background-image: url("img/MOSH_LOGO.png") !important; /* Caminho para a imagem do modo escuro */
 }
 
+=======
+>>>>>>> main
 body.dark-mode h1 {
   background-color: #ffffff !important;
   color: #000000 !important;
@@ -208,7 +211,11 @@ body.dark-mode #contact i:hover {
 .main-image {
   height: 70vh;
   /* background-image: url(img2/Sem\ título-distorcido-1.png); */
+<<<<<<< HEAD
   background-image: url(img2/MOSH-CAPA.png);
+=======
+  background-image: url(img2/Sem\ título-distorcido-1.png);
+>>>>>>> main
   background-position: center center;
   background-size: cover;
   margin-bottom: 30px;
@@ -357,8 +364,13 @@ a:hover i {
 
 @media screen and (max-width: 768px) {
   .main-image {
+<<<<<<< HEAD
     background-image: url(img2/MOSH-CAPA-MOBILE.png);
     /* background-size: 150vh; */
+=======
+    background-image: url(img/MoshSUMMER-1.png);
+    background-size: 150vh;
+>>>>>>> main
   }
 
   ::-webkit-scrollbar-thumb {

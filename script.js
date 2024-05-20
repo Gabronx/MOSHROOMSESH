@@ -31,6 +31,7 @@ $(document).ready(function() {
 });
 
 
+<<<<<<< HEAD
   document.addEventListener("DOMContentLoaded", function() {
     const darkModeToggle = document.getElementById("darkModeToggle");
     const logo = document.getElementById("logo");
@@ -45,3 +46,12 @@ $(document).ready(function() {
         }
     });
 });
+=======
+document.addEventListener("DOMContentLoaded", function() {
+    const darkModeToggle = document.getElementById("darkModeToggle");
+  
+    darkModeToggle.addEventListener("click", function() {
+      document.body.classList.toggle("dark-mode");
+    });
+  });
+>>>>>>> main

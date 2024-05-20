@@ -27,7 +27,11 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+<<<<<<< HEAD
   gap: 50px;
+=======
+  gap: 20px;
+>>>>>>> main
 }
 
 .lookbook-item {
