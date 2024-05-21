@@ -134,9 +134,11 @@ body.dark-mode a:hover {
 }
 
 body.dark-mode .main-image-info {
-  background: linear-gradient(135deg,
-      rgba(255, 255, 255, 0.1),
-      rgba(0, 0, 0, 0));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(0, 0, 0, 0)
+  );
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
@@ -219,9 +221,11 @@ body.dark-mode #contact i:hover {
 }
 
 .main-image-info {
-  background: linear-gradient(135deg,
-      rgba(255, 255, 255, 0.1),
-      rgba(0, 0, 0, 0));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(0, 0, 0, 0)
+  );
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
@@ -251,17 +255,17 @@ body.dark-mode #contact i:hover {
 }
 
 #img3 {
-  background-image: url(img/MoshroomDJSET.jpeg);
+  background-image: url(img2/PREVIEW-EDITIONSblack.png);
 
   /* background-size: 100%; */
 }
 
 #img4 {
-  background-image: url(img/MoshroomDJSET.jpeg);
+  background-image: url(img2/PREVIEW-EDITIONSblack.png);
 }
 
 #img5 {
-  background-image: url(img/MoshroomDJSET.jpeg);
+  background-image: url(img2/PREVIEW-EDITIONSblack.png);
 }
 
 #gallery-container h1 {
