@@ -51,6 +51,17 @@ body .btn {
   border-radius: 0;
 }
 
+#btn-buy {
+  color: #ffffff;
+  background-color: #000;
+  /* border: 1px solid #1b1b1b; */
+  border-radius: 8px;
+}
+
+#btn-buy:hover{
+  background-color: #51515122;
+}
+
 body .btn:hover {
   background-color: #ffffff31;
   color: #fff;
@@ -388,4 +399,31 @@ a:hover i {
 
 ::-webkit-scrollbar-track {
   background-color: #ffffff00;
+}
+
+.zoom-image .w-100.h-10 {
+  transform: translateY(-100%); 
+  opacity: 0; 
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.zoom-image:hover .w-100.h-10 {
+  transform: translateY(0); 
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .zoom-image:hover .w-100.h-10 {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .zoom-image .w-100.h-10 {
+    transform: translateY(0);
+    opacity: 1;
+    transition: none;
+  }
 }
