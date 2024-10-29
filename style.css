@@ -255,7 +255,7 @@ body.dark-mode #contact i:hover {
 }
 
 #img3 {
-  background-image: url(img2/PREVIEW-EDITIONSblack.png);
+  background-image: url(img/capa-mosh.png);
 
   /* background-size: 100%; */
 }
@@ -343,8 +343,15 @@ a:hover i {
   transition: none;
 }
 
-#warningNextEvent {
+#warningCurrentEvent{
   background-color: red;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#warningPastEvent {
+  background-color: rgb(0, 0, 0);
   color: white;
   text-align: center;
   font-family: "Poppins", sans-serif;
