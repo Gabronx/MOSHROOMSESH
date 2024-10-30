@@ -266,8 +266,8 @@ body.dark-mode #contact i:hover {
 }
 
 #img3 {
-  background-image: url(img/capa-mosh.png);
-
+  background-image: url(img/moshroom-banner-site2.png);
+background-position: top center;
   /* background-size: 100%; */
 }
 
