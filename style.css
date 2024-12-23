@@ -223,7 +223,7 @@ body.dark-mode #contact i:hover {
 
 .main-image {
   height: 70vh;
-  background-image: url(img2/MOSH-CAPA.png);
+  background-image: url(img2/capa-mosh.jpg);
   background-position: center center;
   background-size: cover;
   margin-bottom: 30px;
@@ -255,6 +255,11 @@ body.dark-mode #contact i:hover {
 
 /* GALLERY */
 
+#img1 {
+  background-image: url(img2/MOSH-FLY1-MENOR.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 #img2 {
   background-image: url(img/MOSHFEED.png);
   background-size: 100%;
@@ -319,7 +324,7 @@ footer {
   padding: 10px;
 }
 
-footer i {
+/* footer i {
   font-size: 20px;
   transition: none;
 }
@@ -347,6 +352,44 @@ footer .col-1 {
 
 footer p {
   text-align: center;
+} */
+
+footer {
+  /* background-color: #121212; */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-content p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-images img {
+  width: auto; /* Mantém a proporção da largura */
+  height: 50px; /* Define a altura fixa */
+  max-width: 100px; /* Limita o tamanho máximo da largura */
+  object-fit: contain; /* Mantém o conteúdo proporcional */
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  display: block; /* Remove espaços extras indesejados */
+}
+
+.footer-images img:hover {
+
+  transform: scale(1.1);
+}
+
+#img3-footer {
+  width: 35px;
 }
 
 a:hover i {
@@ -377,7 +420,7 @@ a:hover i {
 
 @media screen and (max-width: 768px) {
   .main-image {
-    background-image: url(img2/MOSH-CAPA-MOBILE.png);
+    background-image: url(img2/capa-mosh.jpg);
     background-size: 50vh;
   }
 
