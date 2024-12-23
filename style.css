@@ -319,9 +319,13 @@ background-position: top center;
 
 /* FOOTER */
 footer {
-  border-top: 1px solid #ccc;
-  height: 150px;
-  padding: 10px;
+  border-top: 1px solid #cccccc1d;
+  color: #fff;
+  /* height: 150px; */
+  /* padding: 10px; */
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Arial', sans-serif;
 }
 
 /* footer i {
@@ -354,17 +358,9 @@ footer p {
   text-align: center;
 } */
 
-footer {
-  /* background-color: #121212; */
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-  font-family: 'Arial', sans-serif;
-}
-
 .footer-content p {
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .footer-images {
