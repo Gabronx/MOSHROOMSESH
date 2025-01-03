@@ -223,7 +223,7 @@ body.dark-mode #contact i:hover {
 
 .main-image {
   height: 70vh;
-  background-image: url(img2/capa-mosh.jpg);
+  background-image: url(img2/capa-mosh2.jpg);
   background-position: center center;
   background-size: cover;
   margin-bottom: 30px;
@@ -271,7 +271,7 @@ body.dark-mode #contact i:hover {
 }
 
 #img3 {
-  background-image: url(img/moshroom-banner-site2.png);
+  background-image: url(img2/GERAL5-recortado.png);
 background-position: top center;
   /* background-size: 100%; */
 }
