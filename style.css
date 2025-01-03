@@ -416,8 +416,8 @@ a:hover i {
 
 @media screen and (max-width: 768px) {
   .main-image {
-    background-image: url(img2/capa-mosh.jpg);
-    background-size: 50vh;
+    background-image: url(img2/capa-mosh2.jpg);
+    background-size: 90vh;
   }
 
   ::-webkit-scrollbar-thumb {
