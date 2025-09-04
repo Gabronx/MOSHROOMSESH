@@ -58,7 +58,7 @@ body .btn {
   border-radius: 8px;
 }
 
-#btn-buy:hover{
+#btn-buy:hover {
   background-color: #51515122;
 }
 
@@ -259,6 +259,7 @@ body.dark-mode #contact i:hover {
   background-image: url(img2/MOSH-FLY1-MENOR.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center top;
 }
 #img2 {
   background-image: url(img/MOSHFEED.png);
@@ -272,12 +273,14 @@ body.dark-mode #contact i:hover {
 
 #img3 {
   background-image: url(img2/GERAL5-recortado.png);
-background-position: top center;
+  background-position: top center;
   /* background-size: 100%; */
 }
 
 #img4 {
-  background-image: url(img2/PREVIEW-EDITIONSblack.png);
+  /* background-image: url(img/MOSHWITCH-2025---FEED.jpg); */
+  background-image: url(img/extra-noise---feed.jpg);
+  background-position: 0px -50px;
 }
 
 #img5 {
@@ -325,7 +328,7 @@ footer {
   /* padding: 10px; */
   text-align: center;
   padding: 20px 0;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 /* footer i {
@@ -380,7 +383,6 @@ footer p {
 }
 
 .footer-images img:hover {
-
   transform: scale(1.1);
 }
 
@@ -393,7 +395,7 @@ a:hover i {
   transition: none;
 }
 
-#warningCurrentEvent{
+#warningCurrentEvent {
   background-color: red;
   color: white;
   text-align: center;
@@ -441,13 +443,13 @@ a:hover i {
 }
 
 .zoom-image .w-100.h-10 {
-  transform: translateY(-100%); 
-  opacity: 0; 
-  transition: transform 0.3s ease, opacity 0.3s ease; 
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .zoom-image:hover .w-100.h-10 {
-  transform: translateY(0); 
+  transform: translateY(0);
   opacity: 1;
 }
 
@@ -457,7 +459,6 @@ a:hover i {
     opacity: 1;
   }
 }
-
 
 @media (max-width: 767px) {
   .zoom-image .w-100.h-10 {
